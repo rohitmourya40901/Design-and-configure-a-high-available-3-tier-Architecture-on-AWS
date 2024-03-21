@@ -2,6 +2,11 @@
 
 This guide provides step-by-step instructions for setting up a Virtual Private Cloud (VPC) on Amazon Web Services (AWS) along with creating EC2 instances, security groups, and connecting to different instances securely.
 
+
+## Architecture 
+
+![alt text](Tier3Topology.png)
+
 ## Table of Contents
 1. [Create VPC](#create-vpc)
 2. [Create Bastion Host](#create-bastion-host)
@@ -116,5 +121,3 @@ This guide provides step-by-step instructions for setting up a Virtual Private C
    - Connect to Database: `mysql --user=root --password='Re:Start!9' --host=database-server-endpoint`
    Replace web-server-private-ip and database-server-endpoint with actual IPs/URLs.
 
-## Conclusion
-Follow these steps carefully to set up your AWS environment with VPC, EC2 instances, security groups, and connectivity between instances. Adjust configurations and settings as per your requirements and best practices.
